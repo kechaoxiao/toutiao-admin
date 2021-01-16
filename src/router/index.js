@@ -25,37 +25,37 @@ const routes = [
     component: Layout,
     children: [
       {
-        path: '',
+        path: '/',
         name: 'home',
         component: Home
       },
       {
-        path: '/Article',
+        path: '/article',
         name: 'article',
         component: Article
       },
       {
-        path: '/Comment',
+        path: '/comment',
         name: 'comment',
         component: Comment
       },
       {
-        path: '/Fans',
+        path: '/fans',
         name: 'fans',
         component: Fans
       },
       {
-        path: '/Image',
+        path: '/image',
         name: 'image',
         component: Image
       },
       {
-        path: '/Publish',
+        path: '/publish',
         name: 'publish',
         component: Publish
       },
       {
-        path: '/Settings',
+        path: '/settings',
         name: 'settings',
         component: Settings
       }
